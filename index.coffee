@@ -21,7 +21,7 @@ module.exports = ( name, defaults, loader ) ->
         for k, v of JSON.parse fs.readFileSync cache.config
           cache[k] = v
 
-    Promise.resolve loader.call this, input, options
+    Promise.resolve loader.call this, input, cache
       .then ( data ) -> callback null, data
       .catch callback
 
