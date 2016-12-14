@@ -17,7 +17,7 @@ module.exports = ( name, defaults, loader ) ->
         cache[k] = v
       for k, v of @options[name]
         cache[k] = v
-      if cache.config and fs.existSync cache.config
+      if cache.config and fs.existsSync cache.config
         for k, v of JSON.parse fs.readFileSync cache.config
           cache[k] = v
 
