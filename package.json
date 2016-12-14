@@ -1,0 +1,21 @@
+{
+  "name": "webpack-loader",
+  "version": "0.0.0",
+  "description": "base loader for webpack option gathering",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/webpack-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "option"
+  ],
+  "author": "tsukumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/webpack-loader/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/webpack-loader#readme"
+}
