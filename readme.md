@@ -5,7 +5,7 @@ webpack-loader
 About
 ---
 
-Handles loader option packing
+Handles loader option packing (order of import)
 
 - Takes from query
 - Takes from object passed to options
