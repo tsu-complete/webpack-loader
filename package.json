@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tsu-complete/webpack-loader/issues"
   },
-  "homepage": "https://github.com/tsu-complete/webpack-loader#readme"
+  "homepage": "https://github.com/tsu-complete/webpack-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
 }
