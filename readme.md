@@ -22,7 +22,7 @@ defaults =
   option1: true
   option2: false
 
-module.exports = loader defaults, ( input, options ) ->
+module.exports = loader "loader-name", defaults, ( input, options ) ->
   # code here...
   # --or--
   new Promise ( accept, reject ) ->
